@@ -29,44 +29,36 @@
 </head>
 <body>
   <header>
-    <h1 onclick="window.location.href='/'">northsidenine</h1>
+    <h1 onclick="window.location.href='/'" style="cursor: pointer;">northsidenine</h1>
     <p class="subtitle">gfx assets</p>
   </header>
 
-  <div class="asset-gallery">
+  <div class="asset-gallery" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 40px; margin-bottom: 60px;">
     <div class="asset-card">
       <img id="bat-image" src="hypefire.png" alt="hypefire">
       <h3 id="bat-title">2024 easton hypefire</h3>
       <p id="bat-desc">iconic utrip power.</p>
       <button class="glow-button" id="bat-toggle" onclick="switchBatVersion('bat', 'bat-image', 'bat-title', 'bat-desc', 'hypefire.png', 'hypefire2.png', '2024 easton hypefire', '2024 easton arctic hypefire', 'iconic utrip power.', 'icy repaint of an iconic bat.', 'bat-toggle', 'switch to arctic version', 'switch to original')">switch to arctic version</button>
     </div>
-  </div>
 
-  <div class="asset-gallery">
     <div class="asset-card">
       <img src="banana.png" alt="banana">
       <h3>jaw bats banana</h3>
       <p>cramp reducing potassium power.</p>
     </div>
-  </div>
 
-  <div class="asset-gallery">
     <div class="asset-card">
       <img src="bombpop.png" alt="bomb pop">
       <h3>jaw bats bomb pop</h3>
       <p>american summertime classic.</p>
     </div>
-  </div>
 
-  <div class="asset-gallery">
     <div class="asset-card">
       <img src="stealth.png" alt="orange stealth">
       <h3>2008 easton stealth comp</h3>
       <p>orange besr wmd.</p>
     </div>
-  </div>
 
-  <div class="asset-gallery">
     <div class="asset-card">
       <img id="bone-image" src="bonesaber.png" alt="bonesaber hybrid">
       <h3 id="bone-title">warstic bonesaber hybrid</h3>
@@ -75,7 +67,9 @@
     </div>
   </div>
 
-  <button class="glow-button" onclick="window.location.href='/'">back to home</button>
+  <div style="text-align: center; margin-top: 2rem;">
+    <button class="glow-button" onclick="window.location.href='/'">back to home</button>
+  </div>
 
   <footer>
     &copy; 2025 northsidenine. all rights reserved.
