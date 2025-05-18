@@ -97,12 +97,11 @@ footer {
   padding: 2rem;
   max-width: 1000px;
   margin: 0 auto;
-  justify-items: center;
 }
 
 @media (max-width: 768px) {
   .asset-gallery {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
   }
 }
 
@@ -112,8 +111,7 @@ footer {
   border-radius: 16px;
   padding: 20px;
   text-align: center;
-  width: 100%;
-  max-width: 300px;
+  width: 100%; /* let it fill the grid cell */
   transition: transform 0.3s ease, background 0.3s ease;
 }
 
