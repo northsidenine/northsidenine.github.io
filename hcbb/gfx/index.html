@@ -1,31 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="/style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>northsidenine | gfx assets</title>
-  <link rel="stylesheet" href="/style.css">
-  <script>
-    function switchBatVersion(id, imageId, titleId, descId, defaultSrc, altSrc, defaultTitle, altTitle, defaultDesc, altDesc, toggleId, altText, defaultText) {
-      const img = document.getElementById(imageId);
-      const title = document.getElementById(titleId);
-      const desc = document.getElementById(descId);
-      const toggle = document.getElementById(toggleId);
-
-      const isDefault = img.src.includes(defaultSrc);
-      if (isDefault) {
-        img.src = altSrc;
-        title.textContent = altTitle;
-        desc.textContent = altDesc;
-        toggle.textContent = defaultText;
-      } else {
-        img.src = defaultSrc;
-        title.textContent = defaultTitle;
-        desc.textContent = defaultDesc;
-        toggle.textContent = altText;
-      }
-    }
-  </script>
 </head>
 <body>
   <header>
@@ -35,47 +14,13 @@
 
   <div class="asset-gallery">
     <div class="asset-card">
-      <img id="bat-image" src="hypefire.png" alt="hypefire">
-      <h3 id="bat-title">2024 easton hypefire</h3>
-      <p id="bat-desc">iconic utrip power.</p>
-      <button class="glow-button" id="bat-toggle" onclick="switchBatVersion('bat', 'bat-image', 'bat-title', 'bat-desc', 'hypefire.png', 'hypefire2.png', '2024 easton hypefire', '2024 easton arctic hypefire', 'iconic utrip power.', 'icy repaint of an iconic bat.', 'bat-toggle', 'switch to arctic version', 'switch to original')">switch to arctic version</button>
+      <img src="hypefire.png" alt="hypefire">
+      <h3>2024 easton hypefire</h3>
+      <p>iconic utrip power for your next gfx.</p>
     </div>
   </div>
 
-  <div class="asset-gallery">
-    <div class="asset-card">
-      <img src="banana.png" alt="banana">
-      <h3>jaw bats banana</h3>
-      <p>cramp reducing potassium power.</p>
-    </div>
-  </div>
-
-  <div class="asset-gallery">
-    <div class="asset-card">
-      <img src="bombpop.png" alt="bomb pop">
-      <h3>jaw bats bomb pop</h3>
-      <p>american summertime classic.</p>
-    </div>
-  </div>
-
-  <div class="asset-gallery">
-    <div class="asset-card">
-      <img src="stealth.png" alt="orange stealth">
-      <h3>2008 easton stealth comp</h3>
-      <p>orange besr wmd.</p>
-    </div>
-  </div>
-
-  <div class="asset-gallery">
-    <div class="asset-card">
-      <img id="bone-image" src="bonesaber.png" alt="bonesaber hybrid">
-      <h3 id="bone-title">warstic bonesaber hybrid</h3>
-      <p id="bone-desc">the best of power and speed.</p>
-      <button class="glow-button" id="bone-toggle" onclick="switchBatVersion('bone', 'bone-image', 'bone-title', 'bone-desc', 'bonesaber.png', 'bonesaber2.png', 'warstic bonesaber hybrid', 'hawaii 50 bonesaber hybrid', 'the best of power and speed.', 'beautiful hawaiian floral power.', 'bone-toggle', 'switch to hawaii 50 version', 'switch to original')">switch to hawaii 50 version</button>
-    </div>
-  </div>
-
-  <button class="glow-button" onclick="window.location.href='/'">back to home</button>
+  <button class="glow-button" onclick="window.location.href='/'">back to portfolio</button>
 
   <footer>
     &copy; 2025 northsidenine. all rights reserved.
