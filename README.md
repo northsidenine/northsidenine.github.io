@@ -1,2 +1,2 @@
-# ns9
-northsidenine web portfolio
+# northsidenine
+welcome to my web portfolio repo
