@@ -89,3 +89,33 @@ footer {
   font-size: 14px;
   color: #aaa;
 }
+
+.asset-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.asset-card {
+  background: #222;
+  border: 2px solid #ffdf00;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.asset-card:hover {
+  transform: scale(1.05);
+  background: #444;
+}
+
+.asset-card img {
+  max-width: 100%;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
