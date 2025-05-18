@@ -93,9 +93,11 @@ footer {
 .asset-gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
+  gap: 2rem;
   padding: 2rem;
-  margin-bottom: 60px;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-items: center;
 }
 
 @media (max-width: 768px) {
@@ -110,6 +112,8 @@ footer {
   border-radius: 16px;
   padding: 20px;
   text-align: center;
+  width: 100%;
+  max-width: 300px;
   transition: transform 0.3s ease, background 0.3s ease;
 }
 
@@ -124,4 +128,5 @@ footer {
   border-radius: 12px;
   margin-bottom: 12px;
 }
+
 
