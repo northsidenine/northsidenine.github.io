@@ -1,2 +1,1 @@
-# northsidenine
-welcome to my web portfolio repo
+please deont look in here its really bad
